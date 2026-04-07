@@ -226,3 +226,22 @@ function init()
 }
 
 document.addEventListener("DOMContentLoaded", init);
+
+document.querySelectorAll('a[href^="#"]').forEach(function (anchor)
+{
+    anchor.addEventListener('click', function (event)
+    {
+        event.preventDefault();
+
+        const targetId = anchor.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if(targetElement)
+        {
+            targetElement.scrollIntoView(
+            {
+                behavior: 'smooth'
+            });
+        }
+    });
+});
