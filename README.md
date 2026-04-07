@@ -1,2 +1,2 @@
 # After1mage-1nteractive-Official-Website
-Official website for after1mage 1nteractive
+The official website for after1mage 1nteractive
