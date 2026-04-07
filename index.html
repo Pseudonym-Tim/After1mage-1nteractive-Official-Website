@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AFTER1MAGE 1NTERACTIVE is an indie game development studio creating stylish pixel-art worlds, including SoulStream Saga: Chapter 1 and Dog Petting Simulator." />
+    <meta name="theme-color" content="#0b0b0d" />
+    <title>AFTER1MAGE 1NTERACTIVE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <div id="top"></div>
+    <div class="site-shell"></div>
+
+    <header class="header" id="top">
+        <div class="container nav-wrap">
+            <a class="brand" href="#top" aria-label="AFTER1MAGE 1NTERACTIVE home">
+                <img class="brand__logo" src="assets/studio_logo.png" alt="AFTER1MAGE 1NTERACTIVE logo" />
+                <div class="brand__text">
+                    <span class="brand__title">AFTER1MAGE 1NTERACTIVE</span>
+                </div>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="site-nav">
+                <a href="#top">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__content">
+                <div class="hero__copy reveal">
+                    <div class="hero__title-row">
+                        <img class="hero__logo" src="assets/studio_logo.png" alt="Studio logo" style="width: 300px;" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--about" id="about">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">About Us</p>
+                </div>
+            <div class="about-copy reveal">
+                    <p>
+                        We are a small fully remote indie game development studio dedicated to crafting modern interactive experiences inspired by the timeless design principles of classic games.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--projects" id="projects">
+            <div class="container">
+                <div class="section-heading reveal section-heading--split">
+                    <div>
+                        <p class="eyebrow">Projects</p>
+                        <h2>A showcase of our current work!</h2>
+                    </div>
+                    <p class="section-heading__lead">
+                        Our work so far, featuring both completed projects and those that are still in development!
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card glass-card reveal project-card--featured">
+                        <div class="project-card__media project-card__media--large">
+                            <img src="assets/image1.png" alt="SoulStream Saga Chapter 1 screenshot" />
+                        </div>
+                        <div class="project-card__content">
+                            <div class="project-card__header">
+                                <span class="status-badge">Demo released on Steam</span>
+                                <h3>SoulStream Saga: Chapter 1 Demo</h3>
+                            </div>
+                            <p>
+                                A classic turn based JRPG experience, featuring strategic elemental combat and an emotionally rich story!
+                            </p>
+                            <div class="project-card__gallery two-up">
+                                <button class="gallery-thumb" type="button" data-lightbox-image="assets/image1.png" data-lightbox-alt="SoulStream Saga Screenshot 1" aria-label="Open SoulStream Saga title art in full size">
+                                    <img src="assets/image1.png" alt="SoulStream Saga Screenshot 1" />
+                                </button>
+                                <button class="gallery-thumb" type="button" data-lightbox-image="assets/image1.png" data-lightbox-alt="SoulStream Saga Screenshot 2" aria-label="Open SoulStream Saga logo in full size">
+                                    <img src="assets/image1.png" alt="SoulStream Saga Screenshot 2" />
+                                </button>
+                            </div>
+                            <a class="button button--ghost" href="https://store.steampowered.com/app/4373550/SoulStream_Saga_Chapter_1/" target="_blank" rel="noreferrer">
+                                <i class="fa-brands fa-steam"></i>
+                                View On Steam!
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card reveal">
+                        <div class="project-card__media">
+                            <img src="assets/dog-petting-simulator-1.png" alt="Dog Petting Simulator gameplay screenshot" />
+                        </div>
+                        <div class="project-card__content">
+                            <div class="project-card__header">
+                                <span class="status-badge status-badge--muted">Currently in development</span>
+                                <h3>DOG PETTING SIMULATOR</h3>
+                            </div>
+                            <p>
+                                A silly retro first-person brawler roguelite where you break into houses and pet every dog that you can find!
+                            </p>
+                            <div class="project-card__gallery two-up">
+                                <button class="gallery-thumb" type="button" data-lightbox-image="assets/dog-petting-simulator-2.png" data-lightbox-alt="Dog Petting Simulator power-up screen" aria-label="Open Dog Petting Simulator power-up screen in full size">
+                                    <img src="assets/dog-petting-simulator-2.png" alt="Dog Petting Simulator power-up screen" />
+                                </button>
+                                <button class="gallery-thumb" type="button" data-lightbox-image="assets/dog-petting-simulator-1.png" data-lightbox-alt="Dog Petting Simulator room screenshot" aria-label="Open Dog Petting Simulator room screenshot in full size">
+                                    <img src="assets/dog-petting-simulator-1.png" alt="Dog Petting Simulator room screenshot" />
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--contact" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-copy reveal">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let's talk! Whether it's comments, questions, or concerns, we're here for it!</h2>
+                    <p>
+                        Found a bug in one of our games? Want to tell us how much we suck? 
+                        Want to tell us what you had for breakfast this morning? We're all ears!
+                    </p>
+                    <div class="contact-points">
+                       <div class="contact-point glass-card">
+                            <span><i class="fa-solid fa-envelope"></i> Email</span>
+                            <a id="studioEmailLink" href="mailto:after1mage1nteractive@gmail.com">after1mage1nteractive@gmail.com</a>
+                        </div>
+                      <a class="button button--ghost" href="https://discord.gg/4YktKgUQRQ" target="_blank" rel="noreferrer">
+                            <i class="fa-brands fa-discord"></i>
+                            Join our official Discord server!
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-card reveal" id="contactForm">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" id="name" name="name" placeholder="Your name" required />
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                    </label>
+                    <label>
+                        <span>Message</span>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us a bit about your inquiry..." required></textarea>
+                    </label>
+                    <button class="button" type="submit">Send...</button>
+                    <p class="form-note" id="formNote" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p>© <span id="year"></span> AFTER1MAGE 1NTERACTIVE. All rights reserved.</p>
+                <a class="button button--ghost" href="#top">
+                    Back to top...
+                </a>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="projectLightbox" aria-hidden="true">
+        <div class="lightbox__backdrop" data-lightbox-close></div>
+        <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+            <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close full-size image">
+                <span aria-hidden="true">x</span>
+            </button>
+            <p class="lightbox__title" id="lightboxTitle">Project image preview</p>
+            <div class="lightbox__image-wrap">
+                <img class="lightbox__image" id="lightboxImage" src="" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
